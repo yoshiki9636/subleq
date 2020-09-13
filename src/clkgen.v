@@ -4,7 +4,7 @@ module clkgen (
     output reg clk
 );
 
-`define SIMULATION
+//`define SIMULATION
 `ifdef SIMULATION
 initial clk = 0;
 
