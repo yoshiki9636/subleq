@@ -1,4 +1,4 @@
-# subleq
+# Subleq
 subleq verilog project for FPGA Tang Nano
 
 Subleq is a kind of OISC one instruction, "SUBtract and branch if Less-than or EQual to zero".
@@ -21,23 +21,37 @@ This Subleq has below specification.
 This project uses Tang Nano board. Please setup environment with 
 https://qiita.com/yoshiki9636/items/cabcd0c62ea97472b51c
 After that, please do
+
 (1) Make project with src/*.v and  syn/*
+
 (2) Add OSC, PLL, and UART_MASTER with setting 50MHz clk.
+
 (3) Synthesis, Place&Route, Write to Tang Nano
+
 (4) Open Serial console like teraterm and connect with COM port.
+
 Using with below command
 
 w : write memory command
+
 w XX DD DD ….q
+
 Write data from address XX. The q command need to quit this command.
 
+
 r : read memory command
+
 r XX YY 
+
 Dump out data from address XX to YY.
 
+
 g : goto address and execution command
+
 g XX …q
+
 Run from XX address. The q command need to quit this command.
+
 
 s : step execution command
 
