@@ -33,9 +33,13 @@ After that, please do
 Using with below command
 
 w : write memory command   w XX DD DD ….q   Write data from address XX. The q command need to quit this command.
+
 r : read memory command   r XX YY    Dump out data from address XX to YY.
+
 g : goto address and execution command   g XX …q   Run from XX address. The q command need to quit this command.
+
 s : step execution command   Run only one step.
+
 t : trash memory data   Clear all memory to 0x00
 
 
