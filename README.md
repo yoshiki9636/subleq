@@ -40,9 +40,11 @@ g XX …q
 Run from XX address. The q command need to quit this command.
 
 s : step execution command
+
 Run only one step.
 
 t : trash memory data
+
 Clear all memory to 0x00
 
 Author Yoshiki Kurokawa @yoshiki9636
