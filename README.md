@@ -44,3 +44,10 @@ t : trash memory data   Clear all memory to 0x00
 
 
 Author Yoshiki Kurokawa @yoshiki9636
+/*
+ * SUBLEQ CPU Sample
+ * @auther		Yoshiki Kurokawa <yoshiki.k963@gmail.com>
+ * @copylight	2020 Yoshiki Kurokawa
+ * @license		https://opensource.org/licenses/MIT     MIT license
+ * @version		0.1
+ */

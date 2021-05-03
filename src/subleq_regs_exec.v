@@ -1,3 +1,13 @@
+/*
+ * SUBLEQ CPU Sample
+ *   SUBLEQ Register & Execution Module
+ *    Verilog code
+ * @auther		Yoshiki Kurokawa <yoshiki.k963@gmail.com>
+ * @copylight	2020 Yoshiki Kurokawa
+ * @license		https://opensource.org/licenses/MIT     MIT license
+ * @version		0.1
+ */
+
 module subleq_regs_exec(
 	input clk,
 	input rst_n,

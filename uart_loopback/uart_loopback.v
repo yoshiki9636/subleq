@@ -1,4 +1,12 @@
-// Tang Nano UART master Loopback sample by yoshiki9636
+/*
+ * SUBLEQ CPU Sample
+ *   UART Loopback Sample Module
+ *    Verilog code
+ * @auther		Yoshiki Kurokawa <yoshiki.k963@gmail.com>
+ * @copylight	2020 Yoshiki Kurokawa
+ * @license		https://opensource.org/licenses/MIT     MIT license
+ * @version		0.1
+ */
 
 module uart_loopback (
     //input clk ,
